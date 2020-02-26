@@ -1,0 +1,13 @@
+number = input("Δώσε έναν αριθμό")
+x = len(number)
+x = x * 3
+x = x + 1
+m1 = x % 10
+e1 = x // 10
+s = m1 + e1
+while (s>=10):
+  m2 = s % 10
+  e2 = s // 10
+  s = m2 + e2
+  print (s)
+print (s)  
